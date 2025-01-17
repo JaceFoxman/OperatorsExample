@@ -31,6 +31,17 @@ Module OperatorsExample
         Console.Write("5 \ 3 = ") 'print a string
         Console.WriteLine(5 \ 3) 'print the Integer division
         Console.WriteLine()
+
+        'modulus operator
+        Console.Write("5 mod 3 = ") 'print a string
+        Console.Write("Remainder ")
+        Console.WriteLine(5 Mod 3) 'print the modulus
+        Console.WriteLine()
+
+        'exponent operator
+        Console.Write("5 ^ 3 = ") 'print a string
+        Console.WriteLine(5 ^ 3) 'print the exponent
+        Console.WriteLine()
     End Sub
 
 End Module
