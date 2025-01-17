@@ -42,6 +42,12 @@ Module OperatorsExample
         Console.Write("5 ^ 3 = ") 'print a string
         Console.WriteLine(5 ^ 3) 'print the exponent
         Console.WriteLine()
+
+        'concatenation operator
+        Console.Write("5" & " " & "+" & " " & "3" & " " & "=" & " " & "8") 'print a string
+        Console.WriteLine()
+        Console.WriteLine("wake up neo..." & vbNewLine & "Follow the white rabit...")
+
     End Sub
 
 End Module
