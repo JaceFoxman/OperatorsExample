@@ -14,17 +14,22 @@ Module OperatorsExample
 
         'difference Operator
         Console.Write("5 - 3 = ") 'print a string
-        Console.WriteLine(5 - 3) 'print the sum
+        Console.WriteLine(5 - 3) 'print the difference
         Console.WriteLine()
 
         'product opperator
         Console.Write("5 * 3 = ") 'print a string
-        Console.WriteLine(5 * 3) 'print the sum
+        Console.WriteLine(5 * 3) 'print the product
         Console.WriteLine()
 
-        'quotient operator
+        'floating point division operator
         Console.Write("5 / 3 = ") 'print a string
-        Console.WriteLine(5 / 3) 'print the sum
+        Console.WriteLine(5 / 3) 'print the floating point division
+        Console.WriteLine()
+
+        'Integer division operator
+        Console.Write("5 \ 3 = ") 'print a string
+        Console.WriteLine(5 \ 3) 'print the Integer division
         Console.WriteLine()
     End Sub
 
